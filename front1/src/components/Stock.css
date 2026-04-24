@@ -1,0 +1,27 @@
+.store-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #492019;
+  color: #fff5e2;
+  min-height: 100vh;
+}
+
+.dice-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.dice-card {
+  background: #b93c1d;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 2vh;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.out {
+  color: #720d00;
+  text-decoration: underline;
+}

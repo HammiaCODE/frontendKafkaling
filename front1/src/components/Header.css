@@ -1,24 +1,26 @@
-ul {
+.list-container {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #cc2e06;
 }
 
-ul li {
+li {
   float: left;
 }
 
-ul li p {
+.list {
   display: block;
-  color: white;
+  color: #fff5e2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 4vh;
+    font-family: "Pirata One", system-ui;
+
 }
 
-ul li p:hover {
-  background-color: #111111;
+.list:hover {
+  background-color: #971e00;
 }

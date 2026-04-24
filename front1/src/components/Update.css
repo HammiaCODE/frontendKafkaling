@@ -1,0 +1,43 @@
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Input */
+.inputStyle {
+    width: 400px;
+    padding: 12px 14px;
+    font-size: 20px;
+    margin-right:12px;
+    border-radius: 8px;
+    border: 1px solid #e69500;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+/* Button */
+.buttonStyle {
+    padding: 12px 20px;
+    font-size: 20px;
+    background-color: #cc2e06;
+    color: #fff5e2;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Hover */
+.buttonStyle:hover {
+    background-color: #9c1f00;
+    transform: translateY(-1px);
+}
+
+/* Click */
+.buttonStyle:active {
+    transform: translateY(0);
+}
