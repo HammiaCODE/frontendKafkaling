@@ -1,0 +1,15 @@
+.list-container {
+  display: flex;
+  align-items: center;
+  background-color: #cc2e06;
+  padding: 0 10px;
+}
+
+.list-container .MuiIconButton-root {
+  color: #fff5e2;
+  border-radius: 8px;
+}
+
+.list-container .MuiIconButton-root:hover {
+  background-color: #971e00;
+}
